@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="VB" CodeBehind="MyService.asmx.vb" Class="Prog_4.MyService" %>
