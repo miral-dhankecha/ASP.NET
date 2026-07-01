@@ -1,0 +1,21 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="Prog_3.Site" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Master Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background:black;color:white;padding:20px;text-align:center">
+            <h1>My Website</h1>
+        </div>
+        <div style="padding:20px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div style="background:gray;color:white;padding:15px;text-align:center">
+            <h3>Footer Section</h3>
+        </div>
+    </form>
+</body>
+</html>
